@@ -2,6 +2,7 @@
 
 /* すべてのページに共通する項目のstylesheet */
 body {
+  width: 1000px;
   color: #333;
   font-family: Helvetica,Arial,Verdana;
   list-style-type: none;

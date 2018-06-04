@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+/* すべてのページに共通する項目のstylesheet */
+body {
+  color: #333;
+  font-family: Helvetica,Arial,Verdana;
+  list-style-type: none;
+  text-decoration: none;
+  background-color: #F2F2F2;
+}
+
+/* ヘッダー */
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+.head-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  color: #333;
+  width: 100%;
+  border: 5px solid #FAFAFA;
+  box-sizing: border-box;
+  box-shadow: 0 0 5px grey;
+  background-color: #FAFAFA;
+  user-select: none;
+}
+
+.head-title {
+  font-size: 3em;
+  font-weight: bold;
+  text-align: left;
+  color: #333;
+  margin: 0px 5px 10px;
+}
+
+.head-subtitle {
+  font-size: 1em;
+  color: #848484;
+  border-bottom: 2px solid #333;
+  margin: 0px 10px;
+}
+
+nav {
+  text-align: right;
+}
+
+li {
+  display: inline-block;
+  margin: 10px 10px 0;
+}
+
+span {
+  display: block;
+}
+
+.main-active {
+  color: #FAFAFA;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 5px 30px;
+  border-style: solid;
+  border: 3px solid #555;
+  box-sizing: border-box;
+  background-color: #555;
+  overflow: hidden;
+}
+
+.main-btn {
+}
+
+/* 本文 */
+section {
+  margin: 10% 30% 5%;
+  text-align: center;
+  border-radius: 3%;
+}
+
+h1 {
+  color: #333;
+  font-size: 3em;
+  margin: 30px;
+  border-bottom: 2px solid #333;
+}
+
+.main-flame {
+  font-size: 1em;
+  border: 5px solid #FAFAFA;
+  background-color: #FAFAFA;
+  box-shadow: 0 0 5px grey;
+  padding-bottom: 5em;
+}
+
+h2 {
+  font-size: 1.5em;
+  text-align: left;
+  border-bottom: 2px solid #888;
+  margin: 1em 2em;
+}
+
+p {
+  text-align: left;
+  font-size: 1.2em;
+  margin: 0 3.5em;
+}
+
+.section-link {
+  text-align: left;
+  font-size: 1.2em;
+  margin: 0 3.5em;
+}

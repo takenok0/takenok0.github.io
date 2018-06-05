@@ -145,18 +145,18 @@
   }
 
   .head-title {
-    font-size: 3em;
+    font-size: 2em;
     font-weight: bold;
     text-align: left;
     color: #333;
-    margin: 0px 5px 10px;
+    margin: 0 5px 0;
   }
 
   .head-subtitle {
-    font-size: 1em;
+    font-size: 0.8em;
     color: #848484;
     border-bottom: 2px solid #333;
-    margin: 0px 10px;
+    margin: 0 5px;
   }
 
   nav {
@@ -165,33 +165,19 @@
 
   li {
     display: inline-block;
-    margin: 10px 10px 0;
+    margin: 5px 5px 0;
   }
 
   span {
     display: block;
   }
 
-  .main-active {
-    color: #FAFAFA;
-    font-size: 1.5em;
-    font-weight: bold;
-    padding: 5px 30px;
-    border-style: solid;
-    border: 3px solid #555;
-    box-sizing: border-box;
-    background-color: #555;
-    overflow: hidden;
-  }
-
-  .main-btn {
-  }
 
   /* 本文 */
   section {
-    margin: 10% 25% 5%;
+    margin: 8% 25% 5%;
     text-align: center;
-    border-radius: 3%;
+    border-radius: 10px;
   }
 
   h1 {

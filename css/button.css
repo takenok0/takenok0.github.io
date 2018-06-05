@@ -53,6 +53,19 @@
     -webkit-transform: scale(1);
     transform: scale(1);
   }
+
+  .main-active {
+    color: #FAFAFA;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 5px 30px;
+    border-style: solid;
+    border: 3px solid #555;
+    box-sizing: border-box;
+    background-color: #555;
+    overflow: hidden;
+  }
+
 }
 
 @media screen and (min-width: 500px) {
@@ -61,7 +74,7 @@
     position: relative;
     z-index: 2;
     color: #555;
-    font-size: 1.5em;
+    font-size: 1em;
     font-weight: bold;
     padding: 5px 30px;
     border-style: solid;
@@ -107,4 +120,17 @@
     -webkit-transform: scale(1);
     transform: scale(1);
   }
+
+  .main-active {
+    color: #FAFAFA;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 5px 30px;
+    border-style: solid;
+    border: 3px solid #555;
+    box-sizing: border-box;
+    background-color: #555;
+    overflow: hidden;
+  }
+
 }

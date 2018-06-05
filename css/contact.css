@@ -1,6 +1,35 @@
 @charset "UTF-8";
 
 /* Contactページのstylesheet */
-.contact-link {
-  text-align: left;
+@media screen and (max-width: 499px) {
+  .main-flame {
+    font-size: 1em;
+    border: 5px solid #FAFAFA;
+    background-color: #FAFAFA;
+    box-shadow: 0 0 5px grey;
+    padding-bottom: 5em;
+  }
+
+  h2 {
+    font-size: 1em;
+    text-align: left;
+    border-bottom: 2px solid #888;
+    margin: 1em 2em;
+  }
+
+  .contact-link {
+    text-align: left;
+  }
+  
+  .section-link {
+    text-align: left;
+    font-size: 0.8em;
+    margin: 0 3.5em;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .contact-link {
+    text-align: left;
+  }
 }
